@@ -27,24 +27,7 @@ El flujo de desarrollo fue:
 
 🔗 [Abrir la aplicación en Streamlit](https://TU_APP.streamlit.app)  
 
----
 
-## ⚙️ Instalación local  
-
-Si deseas correr el proyecto en tu equipo:  
-
-```bash
-# Clonar repositorio
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
-cd TU_REPOSITORIO
-
-# Crear entorno virtual (opcional)
-python -m venv venv
-source venv/bin/activate   # en Linux/Mac
-venv\Scripts\activate      # en Windows
-
-# Instalar dependencias
-pip install -r requirements.txt
 
 # Ejecutar aplicación
 streamlit run Ejemplo_1_Storytelling.py
