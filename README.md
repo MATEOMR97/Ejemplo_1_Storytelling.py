@@ -1,42 +1,50 @@
-📌 Introducción del Proyecto
+# 📊 Storytelling de Retail con PyNarrative y Streamlit
 
-Este proyecto nace con el objetivo de crear un Storytelling de Retail interactivo utilizando Python y la librería PyNarrative para visualizar de manera clara la evolución de ventas, utilidades y clientes en el tiempo.
+[![Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![GitHub](https://img.shields.io/badge/Repo-GitHub-black?logo=github)](https://github.com/TU_USUARIO/TU_REPOSITORIO)
 
-🔹 Fase 1 – Desarrollo local en Spyder
-El punto de partida fue la construcción del script en Spyder (IDE de Python). Allí se diseñó la lógica para:
+---
 
-Cargar archivos de entrada (CSV o Excel).
+## 📌 Introducción  
 
-Procesar los datos con pandas.
+Este proyecto nace con el objetivo de **crear un Storytelling de Retail interactivo** utilizando **Python** y la librería **PyNarrative** para visualizar la evolución de **ventas, utilidades y clientes** en el tiempo.  
 
-Generar narrativas visuales mediante PyNarrative (gráficas con contexto, títulos y storytelling).
+El flujo de desarrollo fue:  
 
-Este desarrollo inicial permitió validar la funcionalidad en entorno local.
+1. **Spyder (IDE de Python):**  
+   Desarrollo local del script, cargando datos desde archivos CSV/Excel y generando narrativas visuales.  
 
-🔹 Fase 2 – Integración con Streamlit
-Posteriormente, se integró la solución con Streamlit, una herramienta que permite crear aplicaciones web interactivas directamente desde Python. Con ello, el Storytelling pasó de ser un script local a una aplicación con interfaz gráfica que:
+2. **Streamlit:**  
+   Migración del script a una aplicación web interactiva, con interfaz amigable para el usuario.  
 
-Permite subir archivos de datos.
+3. **GitHub + Streamlit Cloud:**  
+   Despliegue en la nube para compartir el proyecto con una **URL pública** accesible desde cualquier navegador.  
 
-Ofrece selección de distintos tipos de historias (Ventas, Utilidades, Clientes).
+---
 
-Muestra gráficas dinámicas y contextualizadas listas para interpretación.
+## 🚀 Demo  
 
-🔹 Fase 3 – Despliegue en la nube con GitHub + Streamlit Cloud
-Para facilitar el acceso público, se creó un repositorio en GitHub con:
+🔗 [Abrir la aplicación en Streamlit](https://TU_APP.streamlit.app)  
 
-El archivo principal Ejemplo_1_Storytelling.py.
+---
 
-El archivo requirements.txt para instalar las dependencias necesarias.
+## ⚙️ Instalación local  
 
-Luego, el repositorio fue conectado con Streamlit Community Cloud, lo que genera automáticamente una URL pública para que cualquier persona pueda ejecutar la aplicación desde su navegador, sin necesidad de instalar nada.
+Si deseas correr el proyecto en tu equipo:  
 
-🚀 Beneficios del proyecto
+```bash
+# Clonar repositorio
+git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+cd TU_REPOSITORIO
 
-Democratiza el acceso al análisis de datos retail mediante una interfaz web.
+# Crear entorno virtual (opcional)
+python -m venv venv
+source venv/bin/activate   # en Linux/Mac
+venv\Scripts\activate      # en Windows
 
-Integra storytelling con visualizaciones interactivas.
+# Instalar dependencias
+pip install -r requirements.txt
 
-Reduce la dependencia de entornos locales, migrando hacia soluciones compartidas en la nube.
-
-👉 Este flujo (Spyder → Streamlit → GitHub → Streamlit Cloud) refleja un caso práctico de cómo llevar un análisis de datos desde el desarrollo inicial hasta su despliegue web accesible públicamente.
+# Ejecutar aplicación
+streamlit run Ejemplo_1_Storytelling.py
