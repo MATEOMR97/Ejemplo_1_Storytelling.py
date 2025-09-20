@@ -12,7 +12,7 @@ Created on Tue Sep  9 22:00:48 2025
 import streamlit as st
 import pandas as pd
 import pynarrative as pn
-from pyngrok import ngrok, conf
+#from pyngrok import ngrok, conf
 
 # ===========================
 # 🔑 CONFIGURA TU AUTHTOKEN DE NGROK AQUÍ
@@ -88,12 +88,12 @@ if uploaded_file:
 else:
     st.info("📥 Sube un archivo para comenzar.")
 
-# ===========================
-# 5. Iniciar túnel público con ngrok
-# ===========================
-public_url = ngrok.connect(8501)
-st.sidebar.success(f"🌍 URL pública: {public_url}")
-st.write(f"🌍 URL pública activa: {public_url}")
+# # ===========================
+# # 5. Iniciar túnel público con ngrok
+# # ===========================
+# public_url = ngrok.connect(8501)
+# st.sidebar.success(f"🌍 URL pública: {public_url}")
+# st.write(f"🌍 URL pública activa: {public_url}")
 
 
 # ===========================
@@ -101,3 +101,4 @@ st.write(f"🌍 URL pública activa: {public_url}")
 # ===========================
 # cd "C:\Users\Sala_\Downloads"
 # py -m streamlit run Ejemplo_1_Storytelling.py
+
