@@ -49,8 +49,4 @@ pip install -r requirements.txt
 # Ejecutar aplicación
 streamlit run Ejemplo_1_Storytelling.py
 
-.
-├── Ejemplo_1_Storytelling.py   # Script principal de la app
-├── requirements.txt            # Dependencias del proyecto
-├── README.md                   # Documentación del proyecto
-└── data/                       # (opcional) Carpeta con archivos de ejemplo
+
