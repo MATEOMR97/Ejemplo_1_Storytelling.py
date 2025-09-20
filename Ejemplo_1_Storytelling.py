@@ -17,10 +17,10 @@ import pynarrative as pn
 # ===========================
 # 🔑 CONFIGURA TU AUTHTOKEN DE NGROK AQUÍ
 # ===========================
-NGROK_AUTH_TOKEN = "PEGA_AQUI_TU_TOKEN"
-conf.get_default().auth_token = NGROK_AUTH_TOKEN
+# NGROK_AUTH_TOKEN = "PEGA_AQUI_TU_TOKEN"
+# conf.get_default().auth_token = NGROK_AUTH_TOKEN
 
-st.set_page_config(page_title="Storytelling Retail", layout="wide")
+# st.set_page_config(page_title="Storytelling Retail", layout="wide")
 
 # ===========================
 # 1. Cargar archivo
@@ -101,4 +101,5 @@ else:
 # ===========================
 # cd "C:\Users\Sala_\Downloads"
 # py -m streamlit run Ejemplo_1_Storytelling.py
+
 
